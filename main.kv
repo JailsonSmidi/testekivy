@@ -1,0 +1,14 @@
+<Comp>:
+    orientation:'vertical'
+    padding: 20
+    Label:
+        id: label1
+        text: 'Ola esse é um programa python de reconhecimento facial.'
+    Button:
+        text: 'Clique para iniciar o reconhecimento facial'
+        on_press: root.reconhecimento()
+
+    Camera:
+        id: camera
+        resolution: (640, 480)
+        play: True
